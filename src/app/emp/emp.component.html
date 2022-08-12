@@ -1,7 +1,7 @@
 <div style="text-align:center">
-    <ul>
-      <li type="none" *ngFor="let ch of employee" (click)="Addtask(ch)" onMouseOver="this.style.color='red'"
-      onMouseOut="this.style.color='green'">{{ch.name}}</li><hr>
-    </ul>
-    <button  (click)="previous(key)">Previous</button> &nbsp; &nbsp; &nbsp; <button (click)="next(key)">Next</button>
+  <ul>
+    <li type="none" *ngFor="let ch of employee" (click)="Addtask(ch)" onMouseOver="this.style.color='red'"
+    onMouseOut="this.style.color='green'">{{ch.name}}</li><hr>
+  </ul>
+  <button  (click)="previous(key)">Previous</button> &nbsp; &nbsp; &nbsp; <button (click)="next(key)">Next</button>
 </div>
